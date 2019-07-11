@@ -169,6 +169,7 @@ PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
 BOARD_VNDK_VERSION := current
 
 # Vendor Security patch level
