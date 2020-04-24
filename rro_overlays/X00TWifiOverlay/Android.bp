@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "X00TWifiOverlay",
+    theme: "X00TWifiOverlay",
+    sdk_version: "current",
+    product_specific: true
+}
