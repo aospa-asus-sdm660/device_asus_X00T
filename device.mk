@@ -92,6 +92,9 @@ $(callinherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
+# Board platform
+TARGET_BOARD_PLATFORM := sdm660
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
