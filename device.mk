@@ -405,6 +405,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.asus.display.rc \
     init.device.rc \
     init.msm.usb.configfs.rc \
     init.qcom.asus.rc \
