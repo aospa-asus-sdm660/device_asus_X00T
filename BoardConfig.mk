@@ -75,6 +75,9 @@ TARGET_HW_DISK_ENCRYPTION := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := X00TD_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 androidboot.console=ttyMSM0
