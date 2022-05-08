@@ -22,11 +22,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit some common Voltage stuff
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common Project 404 Stuff
+$(call inherit-product, vendor/404/configs/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official-ify
-VOLTAGE_BUILD_TYPE := OFFICIAL
+# Include GAPPS
+WITH_GAPPS := true
 
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -34,7 +35,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := voltage_X00T
+PRODUCT_NAME := p404_X00T
 PRODUCT_MODEL := Zenfone Max Pro M1
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
@@ -47,13 +48,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := asus/ASUS_X00TD/ASUS_X00TD:10/QKQ1/17.2017.2012.438-20201203:user/release-keys
 
-# The following system and vendor props will be set by vendor init
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
-    ro.product.device \
-    ro.product.model \
-    ro.product.name
-
-PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
-    ro.vendor.product.device \
-    ro.vendor.product.model \
-    ro.vendor.product.name
