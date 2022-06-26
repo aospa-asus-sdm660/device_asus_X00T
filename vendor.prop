@@ -82,6 +82,9 @@ persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.qcom.bluetooth.soc=cherokee
 vendor.qcom.bluetooth.soc=cherokee
 
+# Blur on app-launch
+ro.launcher.blur.appLaunch=0
+
 # Camera
 persist.vendor.camera.eis.enable=1
 persist.vendor.camera.expose.aux=1
