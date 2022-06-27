@@ -888,6 +888,10 @@ vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff1906
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
 vendor/lib64/libwvhidl.so|acf4870a0b10af74a40a4c6180f2c10a1706ddbd
 
+# DRM
+vendor/lib/libspl.so
+vendor/lib64/libspl.so
+
 # ESE-Powermanager - from ddv_sprout 11-RKQ1.210607.001-00WW_3_440-release-keys
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|040212c2c39ca3f2090291dd3a7f49979e5003df
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
