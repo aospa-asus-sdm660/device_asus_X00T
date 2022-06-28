@@ -929,7 +929,9 @@ vendor/bin/xtra-daemon|cd0305e252493d65780b5ff188f937f84c64675a
 -vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
 -vendor/lib/libqsocket.so|50079ff493b17465ff8f44d8210d26e3c7279065
+vendor/lib/libcdfw.so
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|244050e4081a6bec273d5481916754b77a52890d
+vendor/lib64/libcdfw.so
 vendor/lib64/libcdfw_remote_api.so|558636f4fa4c17f29cb644c8c6e07766b7240005
 vendor/lib64/libdataitems.so|90379d3b3d036ed26bdad94a52a1cdf406f6b562
 vendor/lib64/libizat_client_api.so|810bc49f9b8d2f798552b2ccb10f413757412264
