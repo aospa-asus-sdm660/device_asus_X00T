@@ -1330,3 +1330,7 @@ vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
 # Wi-Fi - from ddv_sprout 11-RKQ1.210607.001-00WW_3_440-release-keys
 vendor/bin/cnss-daemon|1c63b8f94ba601b76edb0ee2fa1d1880de8d0ea3
+
+#Misc
+system_ext/lib/libbeluga.so
+system_ext/lib64/libbeluga.so
