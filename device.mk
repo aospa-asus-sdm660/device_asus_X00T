@@ -21,10 +21,6 @@ PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_PACKAGES += \
     fs_config_files
 
-# Adapt Launch
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml
-
 # APN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
@@ -357,8 +353,7 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service \
-    android.hardware.power-impl \
-    vendor.qti.hardware.perf@2.2.vendor
+    android.hardware.power-impl
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
@@ -378,6 +373,10 @@ PRODUCT_PACKAGES += \
 # QNS
 PRODUCT_PACKAGES += \
     libstdc++.vendor
+
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
 
 # QTI Performance
 PRODUCT_COPY_FILES += \
