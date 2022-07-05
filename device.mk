@@ -10,9 +10,6 @@ $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
 # APEX
 PRODUCT_COMPRESSED_APEX := false
 
-# Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
-
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
