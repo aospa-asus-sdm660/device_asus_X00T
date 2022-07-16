@@ -25,6 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Project 404 Stuff
 $(call inherit-product, vendor/404/configs/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+P404_BUILDTYPE=SHINKA
 
 # Include GAPPS
 WITH_GAPPS := true
