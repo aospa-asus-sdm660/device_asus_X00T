@@ -127,6 +127,7 @@ ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 debug.cpurend.vsync=false
 debug.sf.enable_gl_backpressure=1
 debug.sf.latch_unsignaled=1
+ro.surface_flinger.protected_contents=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 vendor.display.idle_time=32767
