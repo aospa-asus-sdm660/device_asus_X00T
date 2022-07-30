@@ -129,6 +129,7 @@ debug.hwui.use_buffer_age=false
 debug.sf.enable_gl_backpressure=1
 debug.sf.latch_unsignaled=1
 dev.pm.dyn_samplingrate=1
+persist.demo.hdmirotationlock=false
 ro.surface_flinger.protected_contents=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
