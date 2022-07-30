@@ -128,6 +128,7 @@ debug.cpurend.vsync=false
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 vendor.display.idle_time=32767
+vendor.gralloc.disable_ahardware_buffer=1
 
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
