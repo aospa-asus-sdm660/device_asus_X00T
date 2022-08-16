@@ -30,6 +30,11 @@
 on early-init
     write /proc/sys/kernel/sched_boost 1
 
+    # Logger
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
+
 on init
     write /dev/stune/foreground/schedtune.sched_boost_no_override 1
     write /dev/stune/top-app/schedtune.sched_boost_no_override 1
@@ -39,6 +44,11 @@ on init
     write /dev/stune/top-app/schedtune.colocate 1
 
     write /sys/devices/virtual/graphics/fb0/idle_time 100
+
+    # Logger
+    start boot_log 
+    start boot_log_crash
+    start boot_log_kernel
 
 on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
@@ -86,6 +96,11 @@ on boot
     setprop vendor.usb.controller a800000.dwc3
     setprop sys.usb.configfs 1
     write /sys/module/usb_f_qcrndis/parameters/rndis_dl_max_xfer_size 15916
+
+    # Logger
+    start boot_log 
+    start boot_log_crash
+    start boot_log_kernel
 
 on boot && property:persist.vendor.usb.controller.default=*
     setprop vendor.usb.controller ${persist.vendor.usb.controller.default}
@@ -195,3 +210,37 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      user root
      group system wakelock
      task_profiles ServiceCapacityLow
+
+
+# Logger
+service boot_log /system/bin/logcat -b all -D -f /cache/boot_log_full.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+service boot_log_crash /system/bin/logcat -b crash -D -f /cache/boot_log_crash.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+service boot_log_kernel /system/bin/logcat -b kernel -D -f /cache/boot_log_kernel.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
+on early-boot
+    start boot_log
+    start boot_log_crash
+    start boot_log_kernel
+
+on property:sys.boot_completed=1
+# Stop the logger service
+    stop boot_log
+    stop boot_log_crash
+    stop boot_log_kernel
