@@ -28,7 +28,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 P404_BUILDTYPE=SHINKA
 
 # Include GAPPS
-WITH_GAPPS := true
+#WITH_GAPPS := true
 
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
