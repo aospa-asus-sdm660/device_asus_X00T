@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Project 404 Stuff
 $(call inherit-product, vendor/404/configs/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-P404_BUILDTYPE=SHINKA
+P404_BUILDTYPE=TOKUI
 
 # Include GAPPS
 #WITH_GAPPS := true
