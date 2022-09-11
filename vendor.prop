@@ -76,11 +76,6 @@ vendor.audio.volume.headset.gain.depcal=true
 vendor.audio.tunnel.encode=false
 vendor.voice.path.for.pcm.voip=true
 
-# Bluetooth
-persist.vendor.service.bdroid.sibs=false
-persist.vendor.bt.aac_frm_ctl.enabled=true
-vendor.qcom.bluetooth.soc=cherokee
-
 # Blur on app-launch
 ro.launcher.blur.appLaunch=0
 
