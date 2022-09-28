@@ -88,23 +88,16 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
 PRODUCT_VENDOR_PROPERTIES += \
-    persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac \
     persist.bluetooth.a2dp_offload.disabled=false \
     persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxhd-aac-ldac \
     persist.vendor.qcom.bluetooth.enable.splita2dp=true \
     persist.vendor.qcom.bluetooth.soc=cherokee \
-    ro.bluetooth.a2dp_offload.supported=true \
     ro.vendor.bluetooth.wipower=false \
     vendor.qcom.bluetooth.soc=cherokee
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    persist.bt.a2dp.aac_disable=true \
-    persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxhd-aac \
-    persist.vendor.btstack.enable.splita2dp=true \
-    ro.bluetooth.a4wp=false \
+    persist.bluetooth.a2dp_offload.disabled=false \
     ro.bluetooth.a2dp_offload.supported=true \
-    ro.bluetooth.emb_wp_mode=true \
-    ro.bluetooth.wipower=false \
     vendor.bluetooth.soc=cherokee
 
 # Boot animation
