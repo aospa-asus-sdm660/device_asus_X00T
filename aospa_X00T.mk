@@ -22,12 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Project 404 Stuff
-$(call inherit-product, vendor/404/configs/common.mk)
+$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-P404_BUILDTYPE=TOKUI
-
-# Include GAPPS
-WITH_GAPPS := true
 
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -35,7 +31,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
 PRODUCT_MANUFACTURER := asus
-PRODUCT_NAME := p404_X00T
+PRODUCT_NAME := aospa_X00T
 PRODUCT_MODEL := Zenfone Max Pro M1
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 

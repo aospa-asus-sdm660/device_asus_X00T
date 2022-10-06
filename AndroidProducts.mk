@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/p404_X00T.mk
+    $(LOCAL_DIR)/aospa_X00T.mk
 
 COMMON_LUNCH_CHOICES := \
-    p404_X00T-eng \
-    p404_X00T-userdebug \
-    p404_X00T-user
+    aospa_X00T-eng \
+    aospa_X00T-userdebug \
+    aospa_X00T-user
