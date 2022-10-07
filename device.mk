@@ -96,6 +96,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.qcom.bluetooth.soc=cherokee
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    bluetooth.hardware.power.operating_voltage_mv=3300 \
     persist.bluetooth.a2dp_offload.disabled=false \
     ro.bluetooth.a2dp_offload.supported=true \
     vendor.bluetooth.soc=cherokee
