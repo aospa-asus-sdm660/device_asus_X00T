@@ -378,7 +378,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     bt \
     overlay \
     perf \
-    telephony
+    telephony \
+    wfd-legacy
 
 # QTI Performance
 PRODUCT_COPY_FILES += \
