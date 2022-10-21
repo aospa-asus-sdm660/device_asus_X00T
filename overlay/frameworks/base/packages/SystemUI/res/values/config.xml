@@ -47,4 +47,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <!-- Max visible system icons -->
     <integer name="config_maxVisibleStatusIconContainer">9</integer>
+
+    <!-- Burn in protection -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
 </resources>
