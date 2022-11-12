@@ -390,6 +390,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
 
+# Recovery
+PRODUCT_PACKAGES += \
+    librecovery_updater_asus
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
