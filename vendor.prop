@@ -135,7 +135,6 @@ ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 
 # Graphics
 debug.cpurend.vsync=false
-debug.hwui.use_buffer_age=false
 debug.sf.enable_gl_backpressure=1
 debug.sf.latch_unsignaled=1
 dev.pm.dyn_samplingrate=1
