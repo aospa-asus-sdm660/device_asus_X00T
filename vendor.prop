@@ -120,6 +120,7 @@ vendor.display.disable_rotator_downscale=1
 vendor.display.disable_skip_validate=1
 persist.sys.sf.native_mode=2
 vendor.display.disable_metadata_dynamic_fps=1
+vendor.display.perf_hint_window=50
 
 # DRM
 drm.service.enabled=true
