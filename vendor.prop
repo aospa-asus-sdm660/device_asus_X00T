@@ -108,8 +108,11 @@ debug.hwui.skia_atrace_enabled=false
 # Display
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
-debug.sf.hw=1
+debug.sf.hw=0
 debug.sf.recomputecrop=0
+debug.egl.hw=0
+debug.enable.sglscale=1
+debug.mdpcomp.logs=0
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_transaction_tracing=false
 debug.sf.predict_hwc_composition_strategy=0
