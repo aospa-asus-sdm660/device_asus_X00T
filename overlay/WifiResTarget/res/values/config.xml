@@ -36,4 +36,7 @@
     <!-- Wifi driver supports IEEE80211AX single user beamformee for softap -->
     <bool translatable="false" name="config_wifiSoftapHeSuBeamformeeSupported">true</bool>
 
+    <!-- Enable WPA2 to WPA3 auto-upgrade -->
+    <bool translatable="false" name="config_wifiSaeUpgradeEnabled">false</bool>
+
 </resources>
