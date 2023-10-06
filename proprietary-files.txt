@@ -1087,6 +1087,9 @@ vendor/lib64/vendor.display.color@1.1.so|3cf0d256372bd418462326e6067b4e121322619
 vendor/lib64/vendor.display.color@1.2.so|8184e5d3e404864b1a1518b4d4e2012a5839660b
 vendor/lib64/vendor.display.postproc@1.0.so|86ef4e868f7abb95d555a4d086a8c4193920803f
 
+# Protobuf - from redfin - TQ3A.230901.001/10750268
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so|4f4ad5b013daabbbfbf7be7419fb60c28a59c36c
+
 # QMI - from sld_sprout RKQ1.210607.001-00WW_3_710-release-keys
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 system_ext/lib64/libdiag_system.so|0581aa56cdf6041388bca51e60b5792345f02736
