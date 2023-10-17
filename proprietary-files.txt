@@ -862,6 +862,7 @@ vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 vendor/bin/qseecomd|1aa84570b97468e3e6d0a1266396db7d087d8f87
 vendor/lib/libQSEEComAPI.so|b88a74220b7082c4e066ab98664e653b9f0e76ea
 vendor/lib/libsdedrm.so|9bfbcb30a2d91a18c54111b403df91dee07c82ab
+vendor/lib/libsecureui_svcsock.so|6715fc26c9ebc81235db61ba37ab205b0cc03ef3
 vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
 vendor/lib64/libGPreqcancel_svc.so|088a77c5369aeb03062199731ec883c1ad048f8e
 vendor/lib64/libQSEEComAPI.so|56ddcf0b5d7396377828db98d8705b89e48a930f
@@ -877,6 +878,7 @@ vendor/lib64/librpmb.so|085a3a79b627d1210654ad50902b36a0ba3ee99c
 vendor/lib64/libsdedrm.so|a6af861a2db5721e0ef1d9606713e967c3d39b1c
 vendor/lib64/libsecureui.so|6cd84092ab2d70bf17fff025376d50294c935439
 vendor/lib64/libssd.so|08566fd544144a9fef6d53eb297df091f1f611af
+vendor/lib64/libsecureui_svcsock.so|8cb2b74edaf3ef77c8da0799cf241426a441d51f
 
 # DRM - Qualcomm Trusted Execution Enviornment - from ddv_sprout 11-RKQ1.210607.001-00WW_3_440-release-keys
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|a12cd8a3d326609ee0f0a0cdb5cfc69bd2085f1e
