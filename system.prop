@@ -61,9 +61,6 @@ persist.backup.ntpServer="0.pool.ntp.org"
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
-# Priv-app permissions whitelist
-ro.control_privapp_permissions=log
-
 # Radio
 DEVICE_PROVISIONED=1
 persist.radio.VT_CAM_INTERFACE=1
